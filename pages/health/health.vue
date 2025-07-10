@@ -65,8 +65,6 @@
             </view>
         </view>
 
-        <view></view>
-
         <!-- 健康建议区 -->
         <view class="advice-section" v-if="hasAbnormalIndexes">
             <view class="advice-card">
