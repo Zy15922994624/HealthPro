@@ -1,0 +1,7 @@
+
+.image-loader {
+    width: v-bind(width);
+    height: v-bind(height);
+    border-radius: v-bind(radius);
+}
+

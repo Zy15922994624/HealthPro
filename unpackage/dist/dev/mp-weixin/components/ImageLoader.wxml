@@ -1,0 +1,1 @@
+<image class="image-loader" src="{{localPath}}" mode="{{mode}}" data-event-opts="{{[['error',[['handleError',['$event']]]]]}}" binderror="__e"></image>

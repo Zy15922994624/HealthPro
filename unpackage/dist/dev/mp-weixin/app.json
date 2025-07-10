@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/sport/sport",
+    "pages/user/user",
+    "pages/user/profile",
+    "pages/user/password",
+    "pages/user/settings",
+    "pages/diet/diet",
+    "pages/health/health",
+    "pages/user/health-goals"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "个人健康管理",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1aa7e3",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/sport/sport",
+        "text": "运动",
+        "iconPath": "static/tabs/sport.png",
+        "selectedIconPath": "static/tabs/sport-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/tabs/user.png",
+        "selectedIconPath": "static/tabs/user-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.subscribeMessage": {
+      "desc": "用于发送健康记录提醒"
+    }
+  },
+  "usingComponents": {}
+}
